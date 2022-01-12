@@ -8,6 +8,11 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 92px;
+}
+
+.cabecalho-sneak {
+    margin: 0 80px;
 }
 
 .cabecalho-nav {
@@ -20,9 +25,19 @@ body {
     text-decoration: none;
 }
 
-.container,
-.cabecalho-nav-link {
-    text-decoration: none;
+.input-carrinho {
+    display: flex;
+}
+
+input {
+    margin: 0 10px;
+    border-radius: 50px;
+    background-color: #F2F2F2;
+}
+
+.img-carrinho-compras {
+    border-radius: 50px;
+    background-color: #F2F2F2;
 }
 
 
