@@ -1,3 +1,30 @@
 body {
     font-family: 'lato', sans-serif;
 }
+
+.cabecalho-principal {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho-nav {
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho-nav-link {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.container,
+.cabecalho-nav-link {
+    text-decoration: none;
+}
+
+
+
+    
