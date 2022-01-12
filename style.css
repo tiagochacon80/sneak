@@ -1,44 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'lato', sans-serif;
 }
 
 .cabecalho-principal {
     padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 92px;
+    width: 80%;     
 }
 
-.cabecalho-sneak {
-    margin: 0 80px;
+.cabecalho-img {
+    position: relative;
+    padding-left: 40px;
+    margin: 0 auto;
 }
 
-.cabecalho-nav {
-    display: flex;
-    list-style: none;
+.container {
+    width: 80%;
+    position: absolute;
+    top: 16px;
+    left: 180px;
 }
 
-.cabecalho-nav-link {
-    padding: 10px;
+.cabecalho-link {
+    display: inline;
+    margin: 0 5px 0 15px;
+}
+
+a {
     text-decoration: none;
+    color: #1f1f1f;
+    font-size: 12px;
 }
 
 .input-carrinho {
-    display: flex;
+    width: 30%;
+    position: absolute;
+    top: 12px;
+    right: 150px;
 }
 
-input {
-    margin: 0 10px;
-    border-radius: 50px;
-    background-color: #F2F2F2;
+.input-procurar {
+    border-radius: 20px;
+    height: 25px;
+    border: none;
+    background-color: #f2f2f2;
+    background-image: url(../Sneak/Assets/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    margin-right: 10px;
+    width: 55%;
 }
 
 .img-carrinho-compras {
-    border-radius: 50px;
-    background-color: #F2F2F2;
+    width: 5%;
 }
+
+.section-chamada {
+    padding: 50px 0;     
+    width: 100%;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.chamada-h1 {
+    font-size: 60px;
+}
+
+.chamada-titulo {
+    position: absolute;
+    left: 40px;
+    width: 40vw;    
+}
+
+.chamada-imagem {
+    position: absolute;
+    right: -59px;
+    width: 80%;
+}
+
+.chamada-tenis {
+    width: 100%;
+}
+
+.chamada-h1 {
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chamada-paragrafo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1f1f1f;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.chamada-button {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 70px;
+    border-radius: 12px;
+    border: 2px solid #1f1f1f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
