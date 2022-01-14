@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,144 +9,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="../sneak/Assets/sneak.png" alt="Sneak">
-        <div>
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="">Feminino</a></li>
-                <li><a href="">Novidades</a></li>
-                <li><a href="">Ofertas</a></li>
-                <li><a href="">Colecoes</a></li>
+    <header class="cabecalho-principal">
+        <img src="../sneak/Assets/sneak.png" class="cabecalho-img" alt="Sneak">
+        <div class="container">
+            <ul class="cabecalho-nav">
+                <li class="cabecalho-link"><a href="#">Masculino</a></li>
+                <li class="cabecalho-link"><a href="#">Feminino</a></li>
+                <li class="cabecalho-link"><a href="#">Novidades</a></li>
+                <li class="cabecalho-link"><a href="#">Ofertas</a></li>
+                <li class="cabecalho-link"><a href="#">Coleções</a></li>
             </ul>
         </div> 
-        <div>
-            <input type="text">
-            <img src="../Sneak/Assets/carrinho.png" alt="carrinho de compras"> 
+        <div class="input-carrinho">
+            <input type="text" class="input-procurar" placeholder="Procurar">
+            <img src="../Sneak/Assets/carrinho.png" class="img-carrinho-compras" alt="carrinho de compras"> 
         </div>              
     </header>
-    <main>
-        <section>
-            <div>
-                <h1>SENAK.</br>Ultra Light</h1>
-                <p>Os tenis SNEAK fotam criados especificamente para treinos de circuito, seja para aulas fitness em casa ou para sua propria rotina de treinos.</p>
-                <button>Adicionar ao carrinho</button>
+
+    <main>        
+        <section class="section-chamada">
+            <div class="chamada-titulo">
+                <h1 class="chamada-h1">SENAK.</br>Ultra Light</h1>
+                <p class="chamada-paragrafo">Os tenis SNEAK fotam criados especificamente para treinos de circuito, seja para aulas fitness em casa ou para sua propria rotina de treinos.</p>
+                <button class="chamada-button">Adicionar ao carrinho</button>
             </div>            
 
-            <div>
-                <img src="../Sneak/Assets/tenis.png" alt="Tenis">
+            <div class="chamada-imagem">
+                <img src="../Sneak/Assets/tenis.png" class="chamada-tenis" alt="Tenis">
             </div>            
-        </section>   
-        
-        <aside>
-            <h3>Corrida</h3>
-            <div>
-                <div>Branco</div>
-                <div>Bege</div>
-                <div>Cinza</div>
-                <div>Grafite</div>
+        </section> 
+
+        <aside class="aside-modelo">
+            <h3 class="aside-h3">Corrida - Masculino</h3>
+            <div class="aside-bolas">
+                <div class="div-bolas"><img src="../Sneak/Assets/bola_cinza_clara.png" alt="bola cinza"></div>
+                <div class="div-bolas"><img src="../Sneak/Assets/bola_dourada.png" alt="bola dourada"></div>
+                <div class="div-bolas"><img src="../Sneak/Assets/bola_cinza_gradiente.png" alt="bola cinza gradiente"></div>
+                <div class="div-bolas"><img src="../Sneak/Assets/bola_cinza_escura.png" alt="bola cinza escura"></div>
             </div>
-            <img src="../Sneak/Assets/tenis-branco.png" alt="Tenis branco">
+            <img src="../Sneak/Assets/tenis-branco.png" class="tenis-branco" alt="Tenis branco">
 
-            <p>Branco</p>
+            <p class="aside-paragrafo">Branco</p>
 
-            <button>Adicionar ao carrinho</button>
-        </aside>
+            <button class="aside-button">Adicionar ao carrinho</button>
+        </aside>        
 
-        <section>
-            <div>   
-                <div>
-                    <h3>Leveza e agilidade</h3>
-                    <p>A construção ligeira de espuma e malha do SNEAK proporcionam conforto e agilidade durante o exercício. Um “burpee break” na parte frontal do pé torna-o extremamente flexível para fazer prancha ou Mountain Climber.</p>
+        <section class="section-detalhes">
+            <div class="primeira-sessao-detalhes">   
+                <div class="primeiros-detalhes">
+                    <h3 class="primeiros-detalhes-h3">Leveza e agilidade</h3>
+                    <p class="primeiros-detalhes-p">A construção ligeira de espuma e malha do SNEAK proporcionam conforto e agilidade durante o exercício. Um “burpee break” na parte frontal do pé torna-o extremamente flexível para fazer prancha ou Mountain Climber.</p>
                 </div>
-                <div>
-                    <img src="../Sneak/Assets/Leveza e agilidade.png" alt="Sola de tenis branco Hylo">
+                <div class="primeiros-detalhes-imagem">
+                    <img src="../Sneak/Assets/Leveza e agilidade.png" class="imagem-primeiros-detalhes"alt="Sola de tenis branco Hylo">
                 </div>
             </div>
             
-            <div>
-                <div>   
-                    <h3>Amortecimento imediato</h3>
-                    <p>A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com os joelhos altos e ao saltar. O suporte de arco da parte média do pé garante conforto durante todo o treino.</p>
+            <div class="segunda-sessao-detalhes">
+                <div class="segundos-detalhes">   
+                    <h3 class="segundos-detalhes-h3">Amortecimento imediato</h3>
+                    <p class="segundos-detalhes-p">A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com os joelhos altos e ao saltar. O suporte de arco da parte média do pé garante conforto durante todo o treino.</p>
                 </div>
-                <div>
-                    <img src="../Sneak/Assets/amortecimento.png" alt="Corredor com o tenis Hylo">
-                    <img src="../Sneak/Assets/imediato.png" alt="Tenis branco Hylo">
+                <div class="segundo-detalhes-imagem">
+                    <img src="../Sneak/Assets/Amortecimento imediato.png" class="imagem-segundos-detalhes" alt="Corredor com o tenis Hylo">
                 </div>  
-            </div>                         
-            
-            <div>
-                <h3>Sensação de estabilização</h3>
-                <p>O outrigger - a proteção lateral - dá estabilidade ao pé ao fazer movimentos laterais, como por exemplo, o Skater Squat.</p>
-            </div>
-            <div>
-                <img src="../Sneak/Assets/Sensação de estabilização.png" alt="Pessoas alongando com o tenis branco Hylo">
             </div>             
+            
+            <div class="terceira-sessao-detalhes">
+                <div class="terceiros-detalhes">
+                    <h3 class="terceiro-detalhes-h3">Sensação de estabilização</h3>
+                    <p>O outrigger - a proteção lateral - dá estabilidade ao pé ao fazer movimentos laterais, como por exemplo, o Skater Squat.</p>
+                </div>                
+            </div>
+            <div class="terceiro-detalhes-imagem">
+                <img src="../Sneak/Assets/Sensação de estabilização.png" class="imagem-terceiros-detalhes" alt="Pessoas alongando com o tenis branco Hylo">
+            </div>                       
         </section>
         
-        <aside>
-            <h3>
-                CORRA</br>
-                COMO SE O MUNDO</br>
-                DEPENDESSE DE VOCÊ
-            </h3>
-            <img src="../Sneak/Assets/Image.png" alt="Tenis preto">
-        </aside>
-        <section>
-            <div>
-                <img src="../Sneak/Assets/map.png" alt="Mapa">
-            </div>
-            <form>
-                <h3>Entre em contato</h3>
-                <input type="text" placeholder="nome">
-                <input type="email" placeholder="email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-                
-                <label>
-                    <input type="radio">
-                    Concordo com o a politica de privacidade;
-                </label>
-                <input type="submit" value="Enviar">
-            </form>            
-        </section>
     </main>
-    <footer>
-        <div>
-            <img src="../sneak/Assets/sneak.png" alt="sneak">
-        </div>
-
-        <div>
-            <h5>SOBRE SNEAK</h5>
-            <ul>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Carreira</a></li>
-                <li><a href="#">Para investidores</a></li>
-                <li><a href="#">Cuidado com o meio ambiente</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <h5>AJUDA</h5>
-            <ul>    
-                <li><a href="#">Status do pedido</a></li>
-                <li><a href="#">Entregas e frete</a></li>
-                <li><a href="#">Trocas e devoluções</a></li>
-                <li><a href="#">Opções de pagamento</a></li>
-            </ul>            
-        </div>
-
-        <div>
-            <h5>REDES SOCIAIS</h5>
-            <ul>
-                <li><a href="#"><img src="../Sneak/Assets/Instagram.png" alt="Instagram"></a></li>
-                <li><a href="#"><img src="../Sneak/Assets/Twitter.png" alt="Twitter"></a></li>
-                <li><a href="#"><img src="../Sneak/Assets/Facebook.png" alt="Facebook"></a></li>
-            </ul>            
-        </div>
-
-    </footer>
+    
     
 </body>
 </html>
