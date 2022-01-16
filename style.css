@@ -330,16 +330,20 @@ a {
     padding: 10px 25px;
     margin: 0 0 20px;
     width: 100%;
+    border-radius: 9px;
+    border: none;
 }
 
 textarea {
     padding: 10px 25px;
     margin: 0 0 20px;
     width: 100%;
+    border-radius: 9px;
+    border: none;
 }
 
 label {
-    display: inline-block;
+    display: block;
 }
 
 
