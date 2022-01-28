@@ -48,7 +48,7 @@ a {
     height: 25px;
     border: none;
     background-color: #f2f2f2;
-    background-image: url(../Sneak/Assets/lupa.png);
+    background-image: url(../img/lupa.png);
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 20px;
@@ -109,7 +109,7 @@ a {
     height: 70px;
     border-radius: 12px;
     border: 2px solid #1f1f1f;
-    background-image: url(../Sneak/Assets/adicionar.png);
+    background-image: url(../img/adicionar.png);
     background-repeat: no-repeat;
     background-position:right;
     padding: 20px;
@@ -280,7 +280,7 @@ a {
 }
 
 .corra {
-    background-image: url(../Sneak/Assets/Image.png);
+    background-image: url(../img/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
